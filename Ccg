@@ -1,0 +1,71 @@
+</li>
+<li class="ng-star-inserted">
+<p class="ng-star-inserted"><span class="ng-star-inserted">Back on the </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Verify Identity</span></strong><span class="ng-star-inserted"> screen (</span><span class="inline-code ng-star-inserted">1 selected</span><span class="ng-star-inserted">), the user toggles on </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Switch Camera</span></strong><span class="ng-star-inserted"> (triggering a </span><span class="ng-star-inserted">"Camera Switch Successful - Switched to rear camera"</span><span class="ng-star-inserted"> toast) and </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Remove Detection</span></strong><span class="ng-star-inserted">, then taps </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Start Verification Process</span></strong><span class="ng-star-inserted">.</span></p>
+</li>
+</ul>
+</li>
+<li class="ng-star-inserted">
+<p class="ng-star-inserted"><strong class="ng-star-inserted"><span class="ng-star-inserted">00:16 &ndash; 00:32 (Uploading the Front ID Photo in HTX):</span></strong></p>
+<ul class="ng-star-inserted">
+<li class="ng-star-inserted">
+<p class="ng-star-inserted"><span class="ng-star-inserted">The user switches to the </span><strong class="ng-star-inserted"><span class="ng-star-inserted">HTX</span></strong><span class="ng-star-inserted"> app, opens the profile menu (</span><span class="inline-code ng-star-inserted">mdt****@gmail.com</span><span class="ng-star-inserted">), and navigates to the </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Dominica Metaverse Digital Citizen</span></strong><span class="ng-star-inserted"> verification page.</span></p>
+</li>
+<li class="ng-star-inserted">
+<p class="ng-star-inserted"><span class="ng-star-inserted">On </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Level 2 Basic Verification</span></strong><span class="ng-star-inserted">, the user taps </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Verify &gt;</span></strong><span class="ng-star-inserted">, selects </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Bangladesh</span></strong><span class="ng-star-inserted"> and </span><strong class="ng-star-inserted"><span class="ng-star-inserted">ID Card</span></strong><span class="ng-star-inserted">, and proceeds to the </span><strong class="ng-star-inserted"><span class="ng-star-inserted">ID Verification</span></strong><span class="ng-star-inserted"> screen requiring </span><strong class="ng-star-inserted"><span class="ng-star-inserted">ID Card Front Photo</span></strong><span class="ng-star-inserted"> and </span><strong class="ng-star-inserted"><span class="ng-star-inserted">ID Card Back Photo</span></strong><span class="ng-star-inserted">.</span></p>
+</li>
+<li class="ng-star-inserted">
+<p class="ng-star-inserted"><span class="ng-star-inserted">Tapping </span><strong class="ng-star-inserted"><span class="ng-star-inserted">ID Card Front Photo</span></strong><span class="ng-star-inserted"> -&gt; </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Take Photo</span></strong><span class="ng-star-inserted"> opens the camera interface, which displays the pre-selected front ID card image instead of a live camera scene. The user captures and confirms it, and the front photo uploads.</span></p>
+</li>
+</ul>
+</li>
+<li class="ng-star-inserted">
+<p class="ng-star-inserted"><strong class="ng-star-inserted"><span class="ng-star-inserted">00:33 &ndash; 00:49 (Swapping to the Back ID Photo and Submitting):</span></strong></p>
+<ul class="ng-star-inserted">
+<li class="ng-star-inserted">
+<p class="ng-star-inserted"><span class="ng-star-inserted">The user switches back to </span><strong class="ng-star-inserted"><span class="ng-star-inserted">TS KYC Ninja</span></strong><span class="ng-star-inserted">, removes the front ID photo (</span><span class="inline-code ng-star-inserted">X</span><span class="ng-star-inserted">), taps </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Add Photos</span></strong><span class="ng-star-inserted">, and selects an image of the back of the ID card.</span></p>
+</li>
+<li class="ng-star-inserted">
+<p class="ng-star-inserted"><span class="ng-star-inserted">Returning to </span><strong class="ng-star-inserted"><span class="ng-star-inserted">HTX</span></strong><span class="ng-star-inserted">, the user taps </span><strong class="ng-star-inserted"><span class="ng-star-inserted">ID Card Back Photo</span></strong><span class="ng-star-inserted"> -&gt; </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Take Photo</span></strong><span class="ng-star-inserted">. The camera view now shows the back ID card image.</span></p>
+</li>
+<li class="ng-star-inserted">
+<p class="ng-star-inserted"><span class="ng-star-inserted">After capturing and confirming the back photo, both slots show as uploaded. The user taps </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Submit</span></strong><span class="ng-star-inserted">, HTX displays a </span><strong class="ng-star-inserted"><span class="ng-star-inserted">"Successfully Submitted"</span></strong><span class="ng-star-inserted"> confirmation (followed by an edited </span><strong class="ng-star-inserted"><span class="ng-star-inserted">"DONE"</span></strong><span class="ng-star-inserted"> graphic), and </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Level 2 Basic Verification</span></strong><span class="ng-star-inserted"> updates its status to </span><strong class="ng-star-inserted"><span class="ng-star-inserted">Verifying</span></strong><span class="ng-star-inserted">.</span><a href="https://text-html.com/" target="_blank" rel="nofollow"><img style="width: 90%; max-width: 400px;" src="https://text-html.com/pics/paste-text-here-convert-html.jpg" alt="screenshot" /></a></p>
+</li>
+
+const canvas = document .getElementById ( 'myCanvas' ); const 
+ctx = canvas.getContext ( ' 2d' ); 
+const ws = new WebSocket ( 'ws://localhost:8080' ); 
+let counter = 0 ; 
+let lastUpdate = Date .now ( ); 
+function draw ( ) { 
+if ( Date .now ( ) - lastUpdate >= 50 ) { 
+counter += 1 ; 
+lastUpdate = Date .now ( ); 
+} 
+ctx. fillStyle = `rgb( ${ Math .random() * 255 } , ${ Math .random() * 255 } , ${ Math .random() * 255 } )` ; 
+ctx. fillRect ( 0 , 0 , canvas. width , canvas. height ); 
+ctx. fillStyle = 'white' ; 
+ctx. font = '48px Arial' ; 
+ctx. textAlign = 'center' ; 
+ctx. textBaseline = 'middle' ; 
+ctx. fillText ( `Counter: ${counter} ` , canvas. width / 2 , canvas. height / 2 ); 
+requestAnimationFrame (draw); 
+} 
+draw (); 
+ws. onopen = () => { 
+setInterval ( () => { 
+if (ws. readyState === WebSocket . OPEN ) { 
+canvas. toBlob ( blob => ws. send ( blob ), 'image/jpeg' , 0.9 ); 
+} 
+}, 33 ); 
+};
+const WebSocket = require('ws');
+const wss = new WebSocket.Server({ port: 8080 });
+
+wss.on('connection', ws => {
+    console.log('Client connected!');
+    ws.on('message', message => {
+        process.stdout.write(message); // Output binary frame data
+    });
+    ws.on('close', () => console.log('Client disconnected!'));
+});
+console.log('WebSocket server started on port 8080');
